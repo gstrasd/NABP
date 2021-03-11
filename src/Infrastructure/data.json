@@ -1,0 +1,52 @@
+{
+    "UserLoginId": 1,
+    "UserName": "Nabpuser1",
+    "Shipping": {
+        "AddressLine1": "1234 McDaniel Avenue",
+        "AddressLine2": "#123",
+        "City": "Evanston",
+        "State": "Illinois",
+        "StateCode": "IL",
+        "StateName": "Illinois",
+        "ZipOrPostalCode": "60201",
+        "CountryName": "United States",
+        "CountryCode": "US"
+    },
+    "Payment": {
+        "FirstName": "John",
+        "MiddleName": null,
+        "LastName": "Deo",
+        "AccountNumber": "1234569889456123",
+        "ExpirationMonth": 12,
+        "ExpirationYear": 2024,
+        "Cvv": "123",
+        "BillingAddress": {
+            "AddressLine1": "1234 McDaniel Avenue",
+            "AddressLine2": "#123",
+            "City": "Evanston",
+            "State": "Illinois",
+            "StateCode": "IL",
+            "StateName": "Illinois",
+            "ZipOrPostalCode": "60201",
+            "CountryName": "United States",
+            "CountryCode": "US"
+        },
+        "OrderLineItems": [
+            {
+                "Item": {
+                    "ItemId": 1234,
+                    "Name": "Publication",
+                    "Description": "Publication",
+                    "Price": 75,
+                    "Uom": "EACH",
+                    "IsPaymentCodeApplied": false,
+                    "PaymentDiscountCode": null,
+                    "ItemTotal": 75,
+                    "PaymentDiscountCodeList": null
+                },
+                "Quantity": 1
+            }
+        ],
+        "BalanceDue": 75
+    }
+}
